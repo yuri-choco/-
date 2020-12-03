@@ -5,15 +5,16 @@
 }
 
 header {
-  min-width: 960px;
+  width: auto;
   height: 50px;
   background-color: #ff9a4b;
 }
 
 main {
-  width: 960px;
+  width: auto;
   margin: 50px auto;
   display: flex;
+  justify-content: center;
 }
 
 .step-box {
@@ -63,7 +64,7 @@ main {
 }
 
 footer {
-  min-width: 960px;
+  width: auto;
   height: 50px;
   background-color: #aaa;
 }
@@ -72,6 +73,13 @@ footer {
     display: block;
   }
   .step-box {
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .step-box:last-child {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 50px;
   }
 }
