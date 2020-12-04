@@ -61,6 +61,10 @@ main {
 
 .title {
   margin: 15px 0 5px;
+  font-family: "Microsoft Sans Serif";
+}
+.text {
+  font-family: "Microsoft Sans Serif";
 }
 
 footer {
